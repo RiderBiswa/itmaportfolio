@@ -1,0 +1,42 @@
+.box{
+    border: 2px solid black;
+}
+.red{
+    background-color: #ff0000;
+    height: 120px;
+    width: 120px;
+}
+.green{
+    background-color:greenyellow;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right:0%;
+    top:0%;
+}
+.blue{
+    background-color:rgb(0, 221, 255);
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    bottom: 0%;
+}
+.yellow{
+    background-color:yellow;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 0%;
+    bottom:0%;
+
+}
+.parent-container{
+    border: 2px solid burlywood;
+    height:350px;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    background-color: aquamarine;
+    margin-top: 10%;
+
+}

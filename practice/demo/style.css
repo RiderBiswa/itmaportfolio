@@ -1,0 +1,10 @@
+body{
+    background-image: url(ms\ dhoni.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 580px;
+}
+div{
+    background-color:grey;
+    height: 20px;
+    width: 100%;
+}

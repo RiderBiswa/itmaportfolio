@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    height: 10vh;
+    width: 80%;
+    margin:1rem;
+    padding: 1rem;
+    font-size: 28px;
+    display: block;
+}
+button{
+    font-size: 24px;
+    padding: 8px;
+}
+button:hover{
+    background-color: blue;
+    color: bisque;
+    border-radius: 6px;
+}
+#output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+
+}

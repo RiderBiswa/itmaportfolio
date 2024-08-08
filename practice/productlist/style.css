@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+}
+#d1{
+    height: 300px;
+    width: 200px;
+    background-color: wheat;
+}
+#p1{
+    text-align: center;
+}
+#d2{
+    height: 300px;
+    width: 200px;
+    background-color: wheat;
+    position: relative;
+    left: 00px;
+}
