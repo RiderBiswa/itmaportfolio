@@ -1,0 +1,138 @@
+<!DOCTYPE html>98pk;
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">User Photos</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Change Log</a></li>
+                <li><a href="#">Stats & Graphs</a></li>
+                <li><a href="#">Donate</a></li>
+                <li><a href="#">Copyright Notice</a></li>
+                <li><a href="#">Photoshop Extension</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>RANDOM USER GENERATOR</h1>
+        <p>A free, <a href="#" class="url">open-source API</a> for generating random user data. Like Lorem Ipsum, but for people.</p>
+        <p><a href="#"class="url">Follow us @randomapi</a></p>
+        
+        <div class="user-profile">
+            <img src="hector_holmes.jpg" alt="Hector Holmes">
+            <h2>Hi, My name is</h2>
+            <h1>Hector Holmes</h1>
+            <div class="user-icons">
+                <i class="fas fa-user"></i>
+                <i class="fas fa-envelope"></i>
+                <i class="fas fa-calendar"></i>
+                <i class="fas fa-map-marker-alt"></i>
+                <i class="fas fa-phone"></i>
+                <i class="fas fa-lock"></i>
+            </div>
+        </div>
+
+        <div class="sponsored">
+            <p>SPONSORED</p>
+            <h2>RandomAPI</h2>
+            <p>Want to create your own <strong>customized</strong> data generator for your application? Check out our other service RandomAPI!</p>
+            <button>Learn More</button>
+        </div>
+
+        <section class="usage">
+            <h2>How to use</h2>
+            <p>You can use AJAX to call the Random User Generator API and will receive a randomly generated user in return. If you are using jQuery, you can use the $.ajax() function in the code snippet below to get started.</p>
+            <pre><code>$.ajax({
+    url: 'https://randomuser.me/api/',
+    dataType: 'json',
+    success: function(data) {
+        console.log(data);
+    }
+});</code></pre>
+        </section>
+
+        <section class="results">
+            <h2>Results</h2>
+            <p>The application will provide you with a JSON, XML, CSV, or YAML object that you can parse and apply to your application.</p>
+            <p>You can specify the format you want the results in using the <a href="#">format parameter</a>.</p>
+            <pre><code>{
+                "results": [
+                  {
+                    "gender": "female",
+                    "name": {
+                      "title": "Miss",
+                      "first": "Jennie",
+                      "last": "Nichols"
+                    },
+                    "location": {
+                      "street": {
+                        "number": 8929,
+                        "name": "Valwood Pkwy",
+                      },
+                      "city": "Billings",
+                      "state": "Michigan",
+                      "country": "United States",
+                      "postcode": "63104",
+                      "coordinates": {
+                        "latitude": "-69.8246",
+                        "longitude": "134.8719"
+                      },
+                      "timezone": {
+                        "offset": "+9:30",
+                        "description": "Adelaide, Darwin"
+                      }
+                    },
+                    "email": "jennie.nichols@example.com",
+                    "login": {
+                      "uuid": "7a0eed16-9430-4d68-901f-c0d4c1c3bf00",
+                      "username": "yellowpeacock117",
+                      "password": "addison",
+                      "salt": "sld1yGtd",
+                      "md5": "ab54ac4c0be9480ae8fa5e9e2a5196a3",
+                      "sha1": "edcf2ce613cbdea349133c52dc2f3b83168dc51b",
+                      "sha256": "48df5229235ada28389b91e60a935e4f9b73eb4bdb855ef9258a1751f10bdc5d"
+                    },
+                    "dob": {
+                      "date": "1992-03-08T15:13:16.688Z",
+                      "age": 30
+                    },
+                    "registered": {
+                      "date": "2007-07-09T05:51:59.390Z",
+                      "age": 14
+                    },
+                    "phone": "(272) 790-0888",
+                    "cell": "(489) 330-2385",
+                    "id": {
+                      "name": "SSN",
+                      "value": "405-88-3636"
+                    },
+                    "picture": {
+                      "large": "https://randomuser.me/api/portraits/men/75.jpg",
+                      "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+                      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+                    },
+                    "nat": "US"
+                  }
+                ],
+                "info": {
+                  "seed": "56d27f4a53bd5441",
+                  "results": 1,
+                  "page": 1,
+                  "version": "1.4"
+                }
+              }</code></pre>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

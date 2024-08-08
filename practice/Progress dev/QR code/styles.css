@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    margin:150px;
+}
+.container{
+    height: 480px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px white;
+}
+.container img{
+    border-radius: 10px;
+    margin: 15px;
+}
+.container h2{
+    font-size: 25px;
+    text-align: center;
+    color: navy;
+}
+.container p{
+    padding: 20px;
+    text-align: center;
+    color:gray;
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(212, 25, 56);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dev-box{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: -17px;
+    left: 7%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45%;
+    gap: 20px;
+    top: 12%;
+}
+.header .home{
+    color: black;
+}
+.section{
+    margin-top: 15%;
+    margin-left: 10%;
+    font-size:30px;
+}
+.section b{
+    font-size: 35px;
+}
+.image{
+    position:absolute;
+    margin-left: 50%;
+    top: 17%;
+}
+.btn{
+    width: 8%;
+    padding: 10px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-radius: 15%;
+}
+.btn-one{
+    width: 10%;
+    padding: 10px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-radius: 15%;
+}
