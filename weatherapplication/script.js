@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', () =>{
+document.addEventListener('DOMContentLoaded', () => {
     const apikey ='0e2411880f237c24f409819a7d8181fe';
     const city ='Bhubaneswar';
     const apiUrl =`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
-
+ 
     function fetchWeather() {
         fetch(apiUrl)
         .then(response => response.json())
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () =>{
             updateWeather(data);
         })
    
-
+        
         .catch(error => {
             console.error('Error fetching weather data:', error);
             const weatherContainer = document.getElementById('weather');
